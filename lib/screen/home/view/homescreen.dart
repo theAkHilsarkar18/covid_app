@@ -69,9 +69,9 @@ class _HomescreenState extends State<Homescreen> {
                       ],
                     ),
                   );
-                },itemCount: c1!.countriesStat!.length,);
+                },itemCount: c1!.countriesStat!.length,shrinkWrap: true,);
               }
-              return CircularProgressIndicator(color: Colors.teal,);
+              return CircularProgressIndicator(color: Colors.red,);
             },
 
           ),
